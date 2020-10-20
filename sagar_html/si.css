@@ -1,0 +1,68 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  background-image: url("im/si_bg.jpg");
+  background-size: cover;
+
+}
+
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 580px;
+  background-color: rgba(150, 170, 182, 0.3);
+  border-radius: 30px;
+
+}
+.title {
+   padding-top: 5px;
+  font-style: oblique;
+  padding-left: 150px;
+  font-size: 40px;
+  color: rgba(56, 55, 50, 0.59);
+}
+.fm{
+  text-decoration: none;
+}
+.fi {
+    font-style: oblique;
+   font-size: 20px;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+.input {
+  border-radius: 3px;
+  width: 200px;
+  height: 30px;
+  background-color:  rgba(150, 170, 182, 0.3);
+}
+.sb {
+  text-transform: uppercase;
+  color:rgba(25, 28, 33, 0.87);
+  font-style: oblique;
+  font-size:20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 32%;
+  margin-right:  35%;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(150, 170, 182, 0.3);
+  border-style: solid;
+  border-color:rgba(84, 88, 88, 0.77);
+  border-radius: 30px;
+}
+.sb:hover {
+  background-color:rgb(44, 46, 54);
+}

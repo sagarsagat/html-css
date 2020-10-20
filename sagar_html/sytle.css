@@ -1,0 +1,162 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background:rgba(17, 16, 18, 0.9) ;
+  padding: 20px 30px;
+
+}
+
+#lg         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#lg img    {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#lg span   {
+  display: inline-block;
+}
+
+ nav{
+  text-align:right;
+  width:49%;
+  display: inline-block;
+
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+
+}
+nav ul li{
+display: inline-block;
+}
+nav ul  li a{
+  font-style: oblique;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 20px 25px;
+  display: block;
+  border-radius: 30px;
+}
+nav ul li a:hover{
+  background: rgba(45, 56, 61, 0.63);
+
+}
+
+footer   {
+  background:rgba(17, 16, 18, 0.9) ;
+  padding: 10px;
+  text-align: center;
+
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 70px;
+  margin: 0 auto 10px;
+
+}
+
+footer a {
+  text-decoration:none;
+
+}
+.mi {
+    width:100%;
+    height:720px;
+    background-image: url("im/bg.jpg");
+    background-size: cover;
+}
+.mp{
+  width:100%;
+  height:500px;
+  background-image: url("im/pt.jpg");
+}
+
+.jk{
+  padding-top: 20px;
+  text-align: center;
+
+}
+.jk h1   {
+  opacity: 30%;
+  padding-left: 10px;
+  font-size: 50px;
+  color: rgb(143, 177, 218);
+  margin: 0;
+
+}
+.jk p    {
+  color: rgb(226, 112, 49);
+  font-size: 50px;
+  margin-top:350px;
+}
+.jk a    {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.95);
+  border: 5px solid white;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin-top: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 28px;
+}
+.jk  a:hover{
+  background: rgb(235, 126, 56);
+}
+.h_1 {
+ font-family: sans-serif;
+  text-align: center;
+  padding: 0px 20px;
+  margin: 10px 500px;
+  display: block;
+  color: aqurgb(36, 37, 35);
+  border-style: solid;
+  border-color: rgba(41, 41, 37, 0.89);
+  border-radius: 5px;
+}
+
+.im   {
+  display: inline-block;
+  width: 27%;
+  padding: 20px 30px;
+}
+.im img  {
+  margin-bottom: 12px;
+  width: 33%;
+  border-radius: 150px;
+}
+.im h6   {
+  font-size: 20px;
+  color: rgba(95, 98, 85, 0.68);
+  padding-left: 45px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.p{
+  display: inline-block;
+  width: 27%;
+  padding: 20px 30px;
+}
+.p  p {
+  font-size: 20px;
+  color: rgba(95, 98, 85, 0.68);
+  padding-left: 45px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
